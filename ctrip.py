@@ -59,4 +59,3 @@ for c in all_city:
 			df=df.append([[hotel_name,city,location,address,phone]])
 			time.sleep(5)
 df.to_csv("ctrip_hotels.csv", encoding='utf_8_sig')
-
